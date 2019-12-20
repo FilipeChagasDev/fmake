@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-28.72619 : 97.095234 : 1"
+       inkscape:vp_y="0 : 999.99996 : 0"
+       inkscape:vp_z="181.27381 : 97.095234 : 1"
+       inkscape:persp3d-origin="76.273811 : 47.595235 : 1"
+       id="perspective815" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="133.38817"
+     inkscape:cy="90.912491"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:window-width="1366"
+     inkscape:window-height="658"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-197)">
+    <ellipse
+       style="opacity:1;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.26432848;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.26432839, 60.68776267;stroke-dashoffset:59.14960861;stroke-opacity:1"
+       id="path831"
+       cx="50.213558"
+       cy="247.14496"
+       rx="49.835583"
+       ry="49.703865" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.43886566px;line-height:1.25;font-family:'Blox BRK';-inkscape-font-specification:'Blox BRK';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.16097152"
+       x="16.104078"
+       y="269.60703"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="16.104078"
+         y="269.60703"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Blox BRK';-inkscape-font-specification:'Blox BRK';fill:#ffffff;stroke-width:1.16097152">APP</tspan></text>
+  </g>
+</svg>
