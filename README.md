@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-lightblue)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-![logo](webpage/logo.png)
+<img src="webpage/logo.png" width="100px">
 
 # Introduction
 FMake is a Python script designed to automate the process of compiling programs with many modules. It can be used as an alternative to GNU Make or CMake.
