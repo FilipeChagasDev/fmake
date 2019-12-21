@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>webpage</title>
+		<title>FMake website</title>
 		<link rel="stylesheet" type="text/css" href="containers.css">
 	</head>
 
@@ -10,7 +10,7 @@
 
 		<div class="topbar">
 			<div class="topbar-block" id="app-title">
-				App Title
+				FMake
 			</div>
 
 			<div class="topbar-block" id="app-title" style="float: right">
@@ -23,27 +23,60 @@
 				<img src="logo.png" class="logo">
 				</br>
 				<div class="download-box">
-					<button class="green-button" id="downloadlinux"> Download for Linux </button>
+					<button class="green-button" id="download"> Download Scripts</script> </button>
+					<!--<button class="green-button" id="downloadlinux"> Download for Linux </button>
 					<button class="blue-button" id="downloadwin"> Download for Windows </button>
-					<button class="purple-button" id="downloadmac"> Download for Mac </button>
+					<button class="purple-button" id="downloadmac"> Download for Mac </button>-->
 					<button class="black-button" id="repo"> GitHub Repository </button>
 				</div>
 			</center>
 		</div>
 		
 		<div class="abstract">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at viverra turpis. Integer tortor lorem, porttitor a justo nec, mollis lobortis quam. Nam ultricies justo et viverra tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque lorem ex, aliquam ac urna ut, ultrices vulputate neque. Sed consectetur lectus nec turpis congue, vel tincidunt lacus fringilla.	
+				FMake is a Python script designed to automate the process of compiling programs with many modules. It can be used as an alternative to GNU Make or CMake. <p style="text-align: center"><b>FMake is free software. Use, reproduce and adapt it to your needs without restriction.</b></p>	
 		</div>
 
 		<div class="section">
+
+			<b style="color: red"> WARNING: This project is not yet well developed. Documentation is insufficient and few tests have been done.</b>
 			<h2>Introduction</h2>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at viverra turpis. Integer tortor lorem, porttitor a justo nec, mollis lobortis quam. Nam ultricies justo et viverra tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque lorem ex, aliquam ac urna ut, ultrices vulputate neque. Sed consectetur lectus nec turpis congue, vel tincidunt lacus fringilla. Vestibulum sed sem ut risus volutpat tincidunt non vel elit. Donec tempor nulla sed sollicitudin egestas. In lacinia est massa, a ultrices nisi efficitur a. Fusce eget odio lectus. Aenean ac pulvinar dolor, nec finibus lorem. Nulla diam erat, ornare sed ornare sit amet, mollis at diam. Quisque porttitor justo lorem, id tincidunt magna rhoncus a. Pellentesque congue quam metus, malesuada tempus metus hendrerit ut.
+			
+			<p>
+				FMake is simple and robust, there is nothing very special about it. It consists of the <b>fmake</b> directory script set.
+			</p>
+
+			<p>
+				Basically, the <b>fmake/main.py</b> script has some trace functions for code files. In addition, the <b>fmake/targets</b> directory contains a set of plug-ins responsible for different compilation modes.
+			</p>
+
+			<p>
+				The compilation process is described simply and clearly in a text file containing fmake settings. This file is not exactly a script, but it is a Python dictionary that will be parsed by an <b>eval()</b>.
+			</p>
 		</div>
 
 
 		<div class="section">
 			<h2>How to use</h2>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at viverra turpis. Integer tortor lorem, porttitor a justo nec, mollis lobortis quam. Nam ultricies justo et viverra tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque lorem ex, aliquam ac urna ut, ultrices vulputate neque. Sed consectetur lectus nec turpis congue, vel tincidunt lacus fringilla. Vestibulum sed sem ut risus volutpat tincidunt non vel elit. Donec tempor nulla sed sollicitudin egestas. In lacinia est massa, a ultrices nisi efficitur a. Fusce eget odio lectus. Aenean ac pulvinar dolor, nec finibus lorem. Nulla diam erat, ornare sed ornare sit amet, mollis at diam. Quisque porttitor justo lorem, id tincidunt magna rhoncus a. Pellentesque congue quam metus, malesuada tempus metus hendrerit ut.
+			
+			<p>
+				<h3>1 - Add the fmake directory to the project root</h3>
+				This directory contains the fmake scripts.				
+			</p>
+
+			<p>
+				<h3>2 - Create a FMake config text file in the project root</h3>
+				The contents of this file must be a python dictionary with the compilation process information. This file will be further explained in the documentation.			
+			</p>
+
+			<p>
+				<h3>3 - Create a build.py script in the project root</h3>
+				This script file must call the <b>make</b> function from the <b>fmake/main.py</b> module (specifying the project root path, <b>fmake</b> directory path, and settings file path).
+			</p>
+
+			<p>
+				<h3>4 - Are native targets enough?</h3>
+				You may need to create your own target script.
+			</p>
 		</div>
 		<script src="main.js"></script>
 	</body>

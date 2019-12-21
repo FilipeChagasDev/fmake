@@ -1,1 +1,2 @@
-document.getElementById("repo").onclick = ()=>{window.open('http://github.com/filipechagasdev', '_blank');}
+document.getElementById("repo").onclick = ()=>{window.open('https://github.com/FilipeChagasDev/fmake', '_blank');}
+document.getElementById("download").onclick = ()=>{window.open('https://github.com/FilipeChagasDev/fmake', '_blank');}

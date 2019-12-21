@@ -1,0 +1,19 @@
+{
+    "magic": "fmakeconfig",
+
+    "steps": [0, 1],
+
+    0: {
+        "target": "gcc_object",
+        "flags": "-O2 -lm",
+        "sources": fmakelists("csources"),
+        "outdir": "obj"
+    },
+
+    1: {
+        "target": "gcc_exec",
+        "flags": "",
+        "objects": filter_extension(dir_files("./obj", False), "o"),
+        "out": "prog.elf"
+    }
+}

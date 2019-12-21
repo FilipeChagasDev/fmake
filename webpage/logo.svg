@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/filipe/Documentos/GitHub/fmake/webpage/logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
     <inkscape:perspective
@@ -34,15 +37,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="133.38817"
+     inkscape:cx="-9.3434416"
      inkscape:cy="90.912491"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
-     inkscape:window-width="1366"
-     inkscape:window-height="658"
+     inkscape:window-width="1280"
+     inkscape:window-height="650"
      inkscape:window-x="0"
      inkscape:window-y="34"
      inkscape:window-maximized="1" />
@@ -54,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,22 +67,119 @@
      id="layer1"
      transform="translate(0,-197)">
     <ellipse
-       style="opacity:1;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.26432848;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.26432839, 60.68776267;stroke-dashoffset:59.14960861;stroke-opacity:1"
+       style="opacity:1;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.26432848;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.26432839, 60.68776267000001212;stroke-dashoffset:59.14960861;stroke-opacity:1"
        id="path831"
        cx="50.213558"
        cy="247.14496"
        rx="49.835583"
        ry="49.703865" />
+    <g
+       id="g1026"
+       transform="matrix(0.04284007,0,0,0.04284007,28.604455,218.99964)"
+       style="fill:#ffffff">
+      <g
+         id="g966"
+         style="fill:#ffffff">
+	<g
+   id="g964"
+   style="fill:#ffffff">
+		<g
+   id="g962"
+   style="fill:#ffffff">
+			<path
+   id="path956"
+   d="m 449.253,958.752 v -0.531 -125.649 c -16.291,7.475 -34.135,11.438 -52.273,11.438 -17.053,0 -33.599,-3.375 -49.179,-10.03 -15.033,-6.423 -28.497,-15.601 -40.015,-27.279 -23.725,-24.055 -36.533,-55.922 -36.065,-89.728 0.453,-32.706 13.529,-63.528 36.821,-86.788 23.291,-23.261 54.13,-36.296 86.842,-36.707 0.534,-0.009 1.063,-0.011 1.597,-0.011 18.14,0 35.982,3.965 52.274,11.438 l 0.122,-125.12 H 299.506 c 3.631,-6.34 8.994,-14.236 15.154,-23.226 11.912,-17.385 20.783,-37.496 20.497,-60.273 -0.646,-51.367 -42.547,-93.327 -93.914,-94.038 -0.448,-0.006 -0.903,-0.009 -1.35,-0.009 -52.62,-0.004 -95.271,42.652 -95.271,95.271 0,22.269 8.737,41.944 20.445,58.973 5.693,8.28 11.58,16.957 15.213,23.302 H 40.411 c -22.091,0 -40,17.909 -40,40 V 918.75 c 0,22.092 17.909,40 40,40 z"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff" />
+
+			<path
+   id="path958"
+   d="m 832.692,508.965 c 7.474,16.291 11.438,34.135 11.438,52.273 0,33.463 -13.029,64.922 -36.688,88.582 -23.66,23.66 -55.119,36.688 -88.582,36.688 -0.583,0 -1.177,-0.004 -1.767,-0.012 -32.707,-0.453 -63.527,-13.529 -86.789,-36.82 -23.26,-23.291 -36.296,-54.131 -36.707,-86.838 -0.233,-18.711 3.729,-37.108 11.423,-53.875 h -95.644 -15 -15.141 l 0.018,150.16 c -5.298,-3.033 -15.108,-9.637 -24.136,-15.863 -16.723,-11.537 -36.252,-19.793 -58.14,-19.793 -0.408,0 -0.813,0.002 -1.224,0.008 -51.367,0.646 -93.326,42.548 -94.038,93.914 -0.244,17.599 4.289,34.119 12.378,48.354 16.382,28.824 47.36,48.268 82.884,48.268 21.888,0 40.968,-8.93 58.136,-19.793 10.578,-6.692 18.84,-12.832 24.138,-15.865 v 0.705 179.164 h 0.122 15 15 408.843 c 22.092,0 40,-17.909 40,-40 V 508.965 Z"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff" />
+
+			<path
+   id="path960"
+   d="M 918.34,0 H 479.375 v 183.766 c 0,0 16.088,-13.928 21.23,-17.577 16.507,-13.723 37.721,-21.979 60.863,-21.979 53.066,0 95.999,43.386 95.264,96.622 -0.711,51.366 -42.671,93.268 -94.038,93.913 -0.408,0.005 -0.818,0.008 -1.227,0.008 -23.145,0 -44.356,-8.255 -60.863,-21.979 -5.145,-3.648 -21.229,-17.576 -21.229,-17.576 v 183.768 h 30 149.87 c -1.389,2.841 -9.421,15.021 -15.986,24.294 -11.921,16.836 -19.943,36.914 -19.665,59.205 0.646,51.365 42.548,93.324 93.914,94.037 0.448,0.006 0.902,0.01 1.352,0.01 24.636,0 47.087,-9.352 63.999,-24.694 19.21,-17.431 31.271,-42.595 31.271,-70.578 0,-21.832 -8.228,-41.308 -19.7,-58.017 -7.307,-10.643 -12.829,-18.817 -15.786,-23.966 -0.059,-0.1 -0.113,-0.192 -0.171,-0.292 h 177.133 2.735 V 461.947 40 C 958.34,17.909 940.432,0 918.34,0 Z"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff" />
+
+		</g>
+
+	</g>
+
+</g>
+      <g
+         id="g968"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g970"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g972"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g974"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g976"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g978"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g980"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g982"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g984"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g986"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g988"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g990"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g992"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g994"
+         style="fill:#ffffff">
+</g>
+      <g
+         id="g996"
+         style="fill:#ffffff">
+</g>
+    </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.43886566px;line-height:1.25;font-family:'Blox BRK';-inkscape-font-specification:'Blox BRK';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.16097152"
-       x="16.104078"
-       y="269.60703"
-       id="text835"><tspan
+       style="font-style:normal;font-weight:normal;font-size:13.72627544px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3431569"
+       x="28.654202"
+       y="274.15198"
+       id="text1030"><tspan
          sodipodi:role="line"
-         id="tspan833"
-         x="16.104078"
-         y="269.60703"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Blox BRK';-inkscape-font-specification:'Blox BRK';fill:#ffffff;stroke-width:1.16097152">APP</tspan></text>
+         id="tspan1028"
+         x="28.654202"
+         y="274.15198"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#ffffff;stroke-width:0.3431569">FMake</tspan></text>
   </g>
 </svg>

@@ -1,0 +1,32 @@
+import os
+import sys
+
+# "root/dirname/filename" -> "filename"
+def rmpath(name):
+    return name.split("/")[-1]
+
+# "filename.c" -> "filename.o"
+def outname(inname):
+    return inname.split(".")[0] + ".o"
+
+#INTERFACE: checks if the received configuration dictionary is valid
+def check(config):
+    assert(config["target"] == "gpp_object")
+    tag_ty = [
+        ("flags", str),
+        ("sources", list),
+        ("outdir", str)
+    ]
+    for tag, ty in tag_ty:
+        if type(config[tag]) != ty:
+            raise Exception("Invalid gcc_object config")
+
+#INTERFACE: build
+def make(config_dict):
+    sources_list = config_dict["sources"]
+    for source in sources_list:
+        in_filename = rmpath(source)
+        out_filename = outname(in_filename)
+        outpath = config_dict["outdir"] + "/" + out_filename
+        command = "g++ -c " + source + " -o "  + outpath
+        os.system(command)
