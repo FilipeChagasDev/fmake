@@ -15,7 +15,10 @@ https://filipechagasdev.github.io/fmake/
 * Python 3
 
 # Documentation
-TODO
+
+Operation, configurations file: https://github.com/FilipeChagasDev/fmake/blob/master/src/fmake/README.md
+
+Targets and target-modules: https://github.com/filipechagasdev/fmake/src/fmake/targets/README.md
 
 # Dev Team
 * Filipe Chagas Ferraz (Owner)

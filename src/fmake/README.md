@@ -21,7 +21,7 @@ The configuration file must contain:
 * A "steps" tag with a list containing the tags of the compilation steps in the order in which they should be performed.
 * Arbitrary tags (can be strings or numbers) containing the information of the compilation steps. Each must contain a sub-dictionary with the build target settings.
 
-View https://github.com/filipechagasdev/fmake/src/fmake/targets/README.md for more informations.
+View https://github.com/FilipeChagasDev/fmake/blob/master/src/fmake/targets/README.md for more informations.
 
 Example:
 ```python
