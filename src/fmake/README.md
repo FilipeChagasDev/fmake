@@ -1,3 +1,10 @@
+# About
+Author: Filipe Chagas Ferraz
+
+GitHub repo: https://github.com/FilipeChagasDev/fmake
+
+FMake website: https://filipechagasdev.github.io/fmake/
+
 # Operation
 
 The fmake/main.py script contains the *make* function. This function must be called by a build.py script to start the build process.

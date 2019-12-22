@@ -1,3 +1,9 @@
+# Author: Filipe Chagas Ferraz
+# Email: filipe.ferraz0@gmail.com
+# Project: FMake
+# GitHub repo: https://github.com/FilipeChagasDev/fmake
+# Website: https://filipechagasdev.github.io/fmake/
+
 import os
 import sys
 
