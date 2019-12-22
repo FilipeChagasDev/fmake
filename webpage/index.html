@@ -78,6 +78,56 @@
 				You may need to create your own target script.
 			</p>
 		</div>
+
+		<div class="section">
+			<h2>Operation</h2>
+
+			<p>
+				The fmake/main.py script contains the <b>make</b> function. This function must be called by a build.py script to start the build process.
+			</p>
+
+			<p>
+				One of the first things that happens when make is invoked is the loading of target-modules into the target directory. This operation is performed by the <b>load_targets</b> function.
+			</p>
+
+			<p>
+				Immediately afterwards, the configurations file is loaded and parsed by the <b>eval</b> function.
+			</p>
+
+			<p>
+				If there are no syntax errors in the configurations file, the step-by-step compilation will start.
+			</p>
+
+			<h3>Configurations file</h3>
+
+			<p>
+				The configurations file is a text file that contains a python dictionary with the compilation process information.
+			</p>
+
+			<p>
+				The configuration file must contain:
+				<ul>
+					<li>A "magic" tag with the value "fmakeconfig".</li>
+					<li>A "steps" tag with a list containing the tags of the compilation steps in the order in which they should be performed.</li>
+					<li>Arbitrary tags (can be strings or numbers) containing the information of the compilation steps. Each must contain a sub-dictionary with the build target settings.</li>
+				</ul>
+			</p>
+
+			<a href="https://github.com/filipechagasdev/fmake/src/fmake/README.md">Visit the operation README for more informations</a>
+			
+		</div>
+
+		<div class="section">
+			<h2>Targets and target-modules</h2>
+
+			<p>
+				Target-modules are small plug-ins that perform the most important part of the compilation process. For each build step described in the fmake configuration file, a target is specified and a target-module is used.
+			</p>
+
+			<a href="https://github.com/filipechagasdev/fmake/src/fmake/targets/README.md">Visit the targets README for more informations</a>
+			
+		</div>
+
 		<script src="main.js"></script>
 	</body>
 </html>
