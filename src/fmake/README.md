@@ -1,4 +1,7 @@
 # About
+
+FMake v1.1.0 (November/2019)
+
 Author: Filipe Chagas Ferraz
 
 GitHub repo: https://github.com/FilipeChagasDev/fmake
