@@ -26,6 +26,29 @@ The make function must perform the compilation step. Within it, one or more comm
 
 # Default target-modules
 
+## shell_command
+
+submit arbitrary command to shell
+
+The body of the command must be in the "command" tag.
+
+Variables can be identified between two '%', as follows: "%variable%".
+
+With the exception of "command", all tags can be treated as variables.
+
+```python
+# example of configurations sub-dictionary for shell_command target
+{
+        "target": "shell_command",
+        "name": "Filipe",
+        "surname": "Chagas Ferraz",
+	"alpha": ",".join(["a", "b", "c", "d", "..."]),
+        "command": "echo %name% %surname% %apha%"
+}
+```
+
+The only obrigatory tags are "command" and "target". All others are optional.
+
 ## gcc_object
 
 compiles an object file for each C code file specified in the sources list
@@ -67,3 +90,4 @@ merge a set of .o files into a single executable
 	"out": "program.elf" #output filename
 }
 ```
+

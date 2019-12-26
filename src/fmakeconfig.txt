@@ -1,16 +1,25 @@
 {
     "magic": "fmakeconfig",
 
-    "steps": [0, 1],
+    "steps": [0,1,2],
 
-    0: {
+    0:{
+        "target": "shell_command",
+        "first": "filipe",
+        "sec": "chagas",
+        "last": "ferraz",
+	"list": " ".join(filter_extension(dir_files("./obj", False), "o")),
+        "command": "echo %first% %sec% %last% %list%"
+    },
+
+    1: {
         "target": "gcc_object",
         "flags": "-O2 -lm",
         "sources": fmakelists("csources"),
         "outdir": "obj"
     },
 
-    1: {
+    2: {
         "target": "gcc_exec",
         "flags": "",
         "objects": filter_extension(dir_files("./obj", False), "o"),
