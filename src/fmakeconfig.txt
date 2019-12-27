@@ -1,8 +1,14 @@
 {
     "magic": "fmakeconfig",
 
-    "steps": [0,1,2],
-
+    "steps": [-1,0],
+     
+    -1:{
+        "target": "command_foreach",
+	"list": ["filipe", "chagas", "ferraz"],
+        "command": "echo 000 %each%"
+    },
+    
     0:{
         "target": "shell_command",
         "first": "filipe",

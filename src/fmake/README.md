@@ -1,6 +1,6 @@
 # About
 
-FMake v1.1.0 (November/2019)
+FMake v1.2.0 (November/2019)
 
 Author: Filipe Chagas Ferraz
 
