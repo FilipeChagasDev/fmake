@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/Version-v1.2.0-blue)
+![Version](https://img.shields.io/badge/Version-v1.3.0-blue)
 ![DevelopmentOS](https://img.shields.io/badge/Development_OS-Ubuntu-orange)
 ![Language](https://img.shields.io/badge/Language-Python-lightblue)
 ![License](https://img.shields.io/badge/License-MIT-blue)

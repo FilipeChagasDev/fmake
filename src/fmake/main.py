@@ -42,6 +42,10 @@ def fmakelist_parse(_filename):
     lines = filter(lambda s: s != "", lines) #discard blank lines
     return lines
 
+# remove path from filename
+def rmpath(fn):
+    return fn.split("/")[-1]
+
 # get a list of all sources specified by name.fmakelists in these directory tree 
 def fmakelists(name):
     sources = []
@@ -94,3 +98,8 @@ def make(path, _fmake_path, config_filename):
         target_module = targets[step_target]
         target_module.check(step_config)
         target_module.make(step_config)
+        print("done")
+        try:
+            config = eval(config_txt)
+        except:
+            print("Failed to refresh config")

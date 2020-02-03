@@ -49,9 +49,26 @@ With the exception of "command", all tags can be treated as variables.
 
 The only obrigatory tags are "command" and "target". All others are optional.
 
+
+
+## cc_object
+
+compiles an object file for each C code file specified in the sources list using a specific gcc compiler.
+
+```python
+# example of configurations sub-dictionary for gcc_object target
+{
+	"target": "gcc_object", #required
+	"cc": "gcc-arm-none-eabi", #GCC for ARM32
+	"flags": "-O2 -lm", #gcc flags
+	"sources": ["main.c", "module0.c"], #code files to compiler
+	"outdir": "obj" #directory where the .o files will be placed
+}
+```
+
 ## gcc_object
 
-compiles an object file for each C code file specified in the sources list
+compiles an object file for each C code file specified in the sources list.
 
 ```python
 # example of configurations sub-dictionary for gcc_object target
@@ -65,7 +82,7 @@ compiles an object file for each C code file specified in the sources list
 
 ## gpp_object
 
-compiles an object file for each C/C++ code file specified in the sources list
+compiles an object file for each C/C++ code file specified in the sources list.
 
 ```python
 # example of configurations sub-dictionary for gcc_object target
@@ -79,7 +96,7 @@ compiles an object file for each C/C++ code file specified in the sources list
 
 ## gcc_exec
 
-merge a set of .o files into a single executable
+merge a set of .o files into a single executable.
 
 ```python
 # example of configurations sub-dictionary for gcc_exec target

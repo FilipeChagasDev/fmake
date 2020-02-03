@@ -1,6 +1,6 @@
 # About
 
-FMake v1.2.0 (November/2019)
+FMake v1.3.0 (November/2019)
 
 Author: Filipe Chagas Ferraz
 
@@ -55,3 +55,49 @@ Example:
     }
 }
 ```
+
+## Auxiliary functions
+
+Configuration files can contain invocations of standard python functions, in addition to the auxiliary functions of fmake.
+
+The auxiliary functions are as follows:
+
+* **fmakelists(name)**
+
+get a list of all sources specified by name.fmakelists in these directory tree.
+
+* **dir_files(dirpath, walk=False)**
+
+returns a list of the filenames of the specified directory. If walk is defined as True, all the subdirectories of the specified directory will be included.
+
+Example:
+```python
+>>> dir_files('documents')
+['/home/anon/documents/doc1.txt', '/home/anon/documents/doc2.txt']
+
+>>> dir_files('documents', True)
+['/home/anon/documents/doc1.txt', '/home/anon/documents/doc2.txt', '/home/anon/documents/subdir/doc3.txt', '/home/anon/documents/subdir/doc4.txt']
+```
+
+* **rmpath(filename)**
+
+Remove path from filename.
+
+
+Example:
+```python
+>>> rmpath('/home/anon/documents/doc1.txt')
+'doc1.txt'
+```
+
+* **filter_extension(_filename_list, extension)**
+
+receives a list of filenames and returns a list with only filenames that have the specific extension.
+
+Example:
+```python
+>>> filter_extension(['file0.a', 'file1.a', 'file0.b', 'file1.b'], 'b')
+['file0.b', 'file1.b']
+```
+
+
